@@ -89,68 +89,61 @@ export default {
 
   data() {
     return {
-      "mission_slug": "001",
+      "mission_slug": "a01.1",
       "current_md": "",
       "events": "",
       "missions": [
         {
-          "slug": "001",
-          "name": "Bug-Hunt",
-          "status": "start"
-        },
+          "slug": "a01.1",
+          "name": "Feet First",
+          "status": "success"
+        }
       ],
       "pilots": [
         {
-          "callsign": "Jinzo",
-          "alias": "Shayan Arsenal",
-          "code": "462370be-bd0f-41c2-b667-cc75f3a59a96///NDL-C-DEEP-STATION//377308ad-ba23-410b-ae37-68a1fb5f8db4",
+          "callsign": "Bluejay",
+          "alias": "Scott Darian",
+          "code": "65fceeb6-f7a2-4317-bf35-690678fcc9a4//NDL-C-BETA-MUSE",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "Type - Worst Beat"
+          "mech": "Sparrow"
         },
         {
-          "callsign": "Kal",
-          "alias": "Vier Flau",
-          "code": "7cd700cc-c990-48ed-892f-e5468de724c4///NDL-C-DEEP-STATION//a98c3e28-ad4a-4f89-bcd9-501464e960da",
+          "callsign": "Dell",
+          "alias": "Conagher",
+          "code": "5a9c408c-2ce1-42c1-839a-f92cc710f1d3//NDL-C-SINGULARITY-HAMMER",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "Necrophile"
+          "mech": "After The Water, The Clouds"
         },
         {
-          "callsign": "Starboard",
-          "alias": "Maria",
-          "code": "4be26ce9-923b-4069-b6c9-76437d4be455///NDL-C-DEEP-STATION//056940c6-8d55-4190-8e85-57caa043cb1a",
+          "callsign": "Disco",
+          "alias": "Viktor 'Vik' Maarschalkerweerd",
+          "code": "66aee2fc-be69-4d89-9f2a-4c4251bc4de5//NDL-C-NULL-TEMPLE",
           "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Scarlet Judicator"
+          "frame": "Chomolungma",
+          "mech": "Malicious Intent Too"
         },
         {
-          "callsign": "Badlands",
-          "alias": "Marlene Gatsby",
-          "code": "98ca9616-044e-4f87-b89b-aae4eb3387ec///NDL-C-DEEP-STATION//6f572259-6946-41bf-931a-e0543709e892",
+          "callsign": "The Tower",
+          "alias": "Kazuki",
+          "code": "e58bac44-ac53-43f2-bed0-acceccffd173//NDL-C-GOLD-SEPTEMBER",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "Mayfly"
-        },
-        {
-          "callsign": "Compadre",
-          "alias": 'Clint "CC" Cruz',
-          "code": "d1fdf62e-d81e-4e10-97c8-df3bc4860117///NDL-C-DEEP-STATION//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Rio Bravo"
-        },
+          "mech": "A Profound Problem"
+        }
+
       ],
       "header": {
-        "planet": "Hercynia",
-        "year": "5014u",
-        "system": "Ardennes-3",
-        "gate": "Atlas-Quanokrim",
-        "ring": "Atlas-Line",
-        "headerTitle": "Mirrorsmoke",
-        "headerSubtitle": "Mercenary Company",
-        "subheaderTitle": "Crisis Response",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
+        "planet": "A01",
+        "year": "12 s.d.",
+        "system": "A0[Arch Industries]",
+        "gate": "Ann.-Arch Worlds",
+        "ring": "Annamite Line",
+        "headerTitle": "Ganter Industries",
+        "headerSubtitle": "",
+        "subheaderTitle": "Industrial Concern",
+        "subheaderSubtitle": "Annamite Subdivision",
       },
       "options":{
         "eventsMarkdownPerMission": true
